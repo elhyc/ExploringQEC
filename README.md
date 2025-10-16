@@ -24,9 +24,9 @@ Furthermore, by the *no-cloning theorem*, the syndrome qubit system cannot simpl
 
 ### Repository details
 
-We showcase qiskit implementations of some basic tools and concepts from the subject of quantum error correction. In particular, the module [qosf_screening.py](qosf_screening.py) provides a function ```noise_model(a,b,circuit)```, which takes a quantum circuit ```circuit```, and introduces a random Pauli X with probability ```a``` to each physical qubit of ```circuit``` and introduces a random Pauli Z with probability ```b``` to each physical qubit of ```circuit```. 
+We showcase qiskit implementations of some basic tools and concepts from the subject of quantum error correction. In particular, the module [exploringqec.py](exploringqec.py) provides a function ```noise_model(a,b,circuit)```, which takes a quantum circuit ```circuit```, and introduces a random Pauli X with probability ```a``` to each physical qubit of ```circuit``` and introduces a random Pauli Z with probability ```b``` to each physical qubit of ```circuit```. 
 
 
-As mentioned, the module [qosf_screening.py](qosf_screening.py) consists of the function ```noise_model``` (the simple noise model), and implementations of the quantum repetition code, Shor's code, and Steane's code.
-The [Jupyer notebook](qosf_task.ipynb) demonstrates the basic functionality behind these codes, and how to use the simple noise model. 
+As mentioned, the module [exploringqec.py](exploringqec.py) consists of the function ```noise_model``` (the simple noise model), and implementations of the quantum repetition code, Shor's code, and Steane's code.
+The [Jupyer notebook](exploringqec.ipynb) demonstrates the basic functionality behind these codes, and how to use the simple noise model. 
 
